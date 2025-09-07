@@ -1,0 +1,153 @@
+/* This is the style sheet for my first project landing page */
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    font-style: none;
+    background-color: #1f2937;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-links, .text {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.top-button, .call-text {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 16px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 8px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color: #192a37;
+}
+
+.top-right {
+    padding: 32px;
+}
+
+.top-left {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    align-items: flex-start;
+}
+
+.info-blocks {
+    display: flex;
+    justify-content: center;
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-one, .info-two, .info-three, .info-four {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.references {
+    /* How can I align the end of quote name to the left, and the 
+    reference to the center? Do I need to make a class for each container?
+    If I do, it makes it easier to align if there are multiple references. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote, .person {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    font-size: 36px;
+    font-family: light italic, 'Times New Roman', Times, serif;
+    color: #1f2937
+}
+
+.person {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    gap: 128px;
+    margin: 64px 128px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+
+.call-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-family: Roboto, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    margin: 40px 0px;
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
